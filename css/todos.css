@@ -144,7 +144,7 @@ ul.navUL li a:hover {
   justify-content: center;
 }
 .form-btn button{
-  background-color: #FFFF00;
+  background-color: #ffff00d8;
   font-size: 1.8rem;
   color: #000000;
   margin: 2rem;
@@ -204,6 +204,6 @@ textarea{
 }
 .link-view a ,.viewdef{
   text-decoration: none;
-  color: #FFFF00;
+  color: #ffff00d8;
   margin: 0rem 3rem 0rem 0rem;
 }
