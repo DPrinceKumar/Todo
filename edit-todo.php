@@ -30,6 +30,7 @@ if (isset($_POST["updateTodo"])) {
                 <p><i class='fa-solid fa-circle-info'></i> Todo is updated.</p>
             </div>
         </div>";
+        header('Location:todos.php');
     } else {
         $msg =
          "<div class='alert'>

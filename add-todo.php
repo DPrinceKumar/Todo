@@ -36,6 +36,7 @@ if (isset($_POST["addTodo"])) {
                 <p><i class='fa-solid fa-circle-info'></i> Todo is created.</p>
             </div>
         </div>";
+        header('Location:todos.php');
     } else {
         $msg = "<div class='alert alert-2'>
             <div class='msg'>
@@ -54,9 +55,7 @@ if (isset($_POST["addTodo"])) {
 <head>
     <link rel="stylesheet" href="css/todos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <?php getHead(); ?>
-
 </head>
 
 <body>
